@@ -270,7 +270,7 @@ class Api extends \yii\base\Component
         array_to_xml($request, $xml);
 
         $xml = $xml->asXML();
-        try {\yii\helpers\VarDumper::dump($xml,5,5);exit;
+        try {
             $response = Yii::$app->httpclient->post(
                 self::DOCUMENT_API_URL, // URL
                 $xml, // Body
