@@ -1,0 +1,33 @@
+{
+    "name": "webkadabra/yii2-meestexpress",
+    "description": "Yii2 extension to work with Meest Express API",
+    "keywords": ["yii2","extension","api","shipping","parcels","ecommerce","meestexpress"],
+    "type": "yii2-extension",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Sergii Gamaiunov",
+            "email": "hello@webkadabra.com"
+        }
+    ],
+    "version": "0.0.1",
+    "minimum-stability": "stable",
+    "require": {
+        "php": ">=5.5.0",
+        "yiisoft/yii2": "2.*",
+        "guzzlehttp/guzzle": "6.1.*"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~4"
+    },
+    "autoload": {
+        "psr-4": {
+            "webkadabra\\meestexpress\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "webkadabra\\meestexpress\\tests\\": "tests"
+        }
+    }
+}
